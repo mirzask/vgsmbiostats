@@ -1,0 +1,16 @@
+Package: vgsmbiostats
+Title: Data from Regression Methods in Biostatistics (2nd Ed.)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Mirza", "Khan", , "mirza.khan@vumc.org", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0001-7007-9437"))
+Description: Datasets from Regression Methods in Biostatistics: Linear, Logistic, Survival, and Repeated Measures Models (2nd Ed., 2012) by Vittinghoff, Glidden, Shiboski, McCulloch. Book website: https://regression.ucsf.edu/. For some reason, I had trouble accessing this site when I was studying the book, and had to scour GitHub to find the accompanying datasets. To "preserve" the datasets for my current and future study, I've put it together in this package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    tibble
